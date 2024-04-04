@@ -1,17 +1,18 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 2
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
+<ion-content [fullscreen]="true" color="fondo">
+  <ion-header [translucent]="true">
+    <ion-toolbar color="fondo">
+      <ion-title style="text-align: center;">Hoy en Caracas</ion-title>
     </ion-toolbar>
   </ion-header>
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+  <app-card-principal-clima [time]="'11:24'"></app-card-principal-clima>
+  
+  <div class="clima-hora-container">
+    <app-minicard-clima [time]="'9am'" [temperature]="28"></app-minicard-clima>
+    <app-minicard-clima [time]="'12mm'" [temperature]="29"></app-minicard-clima>
+    <app-minicard-clima [time]="'3pm'" [temperature]="28"></app-minicard-clima>
+    <app-minicard-clima [time]="'6pm'" [temperature]="30"></app-minicard-clima>
+  </div>
+
+  <app-card-horizon-list-clima [title]="'Hoy'" [description]="'probablemente llueva'" [temperature]="38"></app-card-horizon-list-clima>
 </ion-content>

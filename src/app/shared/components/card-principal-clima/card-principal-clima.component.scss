@@ -1,0 +1,21 @@
+.title{
+    font-weight: 600;
+    font-size: 3rem;
+}
+.tarjeta{
+    background: rgb(57,62,79);
+    background: linear-gradient(180deg, rgba(57,62,79,1) 5%, rgba(26,29,39,1) 73%);
+    color: rgb(255, 255, 255);
+}
+.text{
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+.info-principal-container{
+    display: flex; 
+    justify-content: center; 
+    flex-direction: column;
+}
+.info-principal-container span:first-child{
+    font-weight: 100;
+}

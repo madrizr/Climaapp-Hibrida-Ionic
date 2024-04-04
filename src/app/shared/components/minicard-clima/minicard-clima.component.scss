@@ -1,0 +1,13 @@
+.container-cardtext{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 3rem;
+    margin: 0.5rem;
+}
+
+.card{
+    margin: 0.5rem 0; padding: 0.5rem;
+    background: rgb(57,62,79);
+    background: linear-gradient(180deg, rgba(57,62,79,1) 5%, rgba(26,29,39,1) 73%);
+}
